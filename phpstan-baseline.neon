@@ -13,18 +13,6 @@ parameters:
 			path: src/Commands/AddLicenseKeyCommand.php
 
 		-
-			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$module_manager\.$#'
-			identifier: property.notFound
-			count: 3
-			path: src/Commands/ModuleCommand.php
-
-		-
-			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$update\.$#'
-			identifier: property.notFound
-			count: 6
-			path: src/Commands/PackageInstallCommand.php
-
-		-
 			message: '#^Function mw_post_update not found\.$#'
 			identifier: function.notFound
 			count: 1
@@ -37,55 +25,7 @@ parameters:
 			path: src/Commands/ResetCommand.php
 
 		-
-			message: '#^Function mw_is_installed not found\.$#'
-			identifier: function.notFound
-			count: 1
-			path: src/Commands/ResetCommand.php
-
-		-
 			message: '#^Function userfiles_path not found\.$#'
 			identifier: function.notFound
 			count: 4
 			path: src/Commands/ResetCommand.php
-
-		-
-			message: '#^Call to method updateFromCli\(\) on an unknown class Modules\\Updater\\Http\\Controllers\\UpdaterController\.$#'
-			identifier: class.notFound
-			count: 1
-			path: src/Commands/UpdateCommand.php
-
-		-
-			message: '#^Function mw_is_installed not found\.$#'
-			identifier: function.notFound
-			count: 1
-			path: src/Commands/UpdateCommand.php
-
-		-
-			message: '#^Instantiated class Modules\\Updater\\Http\\Controllers\\UpdaterController not found\.$#'
-			identifier: class.notFound
-			count: 1
-			path: src/Commands/UpdateCommand.php
-
-		-
-			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$modules\.$#'
-			identifier: property.notFound
-			count: 1
-			path: src/Commands/VendorAssetsSymlinkCommand.php
-
-		-
-			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$templates\.$#'
-			identifier: property.notFound
-			count: 1
-			path: src/Commands/VendorAssetsSymlinkCommand.php
-
-		-
-			message: '#^Call to an undefined method MicroweberPackages\\LaravelModules\\LaravelModule\:\:getPath\(\)\.$#'
-			identifier: method.notFound
-			count: 1
-			path: src/Commands/VendorAssetsSymlinkCommand.php
-
-		-
-			message: '#^Call to an undefined method MicroweberPackages\\LaravelTemplates\\LaravelTemplate\:\:getPath\(\)\.$#'
-			identifier: method.notFound
-			count: 1
-			path: src/Commands/VendorAssetsSymlinkCommand.php
